@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/9bf4255677.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../test_html/css/styles.css"/>
         <title>Test | Kakao More</title>
     </head>
     <body>
@@ -18,46 +19,114 @@
                 <span class="status-bar__battery-level">100%</span>
                 <i class="fas fa-battery-full"></i>
             </div>
-            <header class="header">
-                <div class="header__header-cloumn">
-                    <h1 class="header__title">More</h1>
-                </div>
-                <div class="header__header-cloumn">
-                    <span class="header__icon">
-                        <i class="fas fa-search"></i>
-                    </span>
-                    <span class="header__icon">
-                        <i class="fas fa-qrcode"></i>
-                    </span>
-                    <span class="header__icon">
+        </div>
+        <header class="header">
+            <div class="header__header-cloumn">
+                <h1 class="header__title">More</h1>
+            </div>
+            <div class="header__header-cloumn">
+                <span class="header__icon">
+                    <i class="fas fa-search"></i>
+                </span>
+                <span class="header__icon">
+                    <i class="fas fa-qrcode"></i>
+                </span>
+                <span class="header__icon">
+                    <a href="../test_html/settings.html">
                         <i class="fas fa-cog"></i>
-                    </span>
+                    </a>
+                </span>
+            </div>
+        </header>
+        <main class="more">
+            <header class="more__header">
+                <div class="friend__friend friend friend friend--lg">
+                    <div class="friend__column">
+                        <img class="g-avatar friend__avatar" src="../test_html/resource/image/basic_unnamed.jpg" alt="">
+                        <div class="friend__content">
+                            <span class="friend__name">
+                                KSH
+                            </span>
+                            <span class="friend__status">
+                                unknown@naver.com
+                            </span>
+                        </div>                  
+                    </div>
+                    <div class="friend__column">
+                        <i class="far fa-comment-alt fa-2x"></i>
+                    </div>
                 </div>
-            </header>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__list-item">
-                        <a href="../test_html/friends.html" class="nav__list-link">
-                            <i class="far fa-user"></i>
-                        </a>
+                <ul class="more __btn-list">
+                    <li class="more__btn">
+                        <span class="more__btn-icon">
+                            <i class="far fa-smile fa-2x"></i>
+                        </span>
+                        <span class="more__btn-title">
+                            Themes
+                        </span>
                     </li>
-                    <li class="nav__list-item">
-                        <a href="../test_html/index.html" class="nav__list-link">
-                            <i class="far fa-comment"></i>
-                        </a>
-                    </li>
-                    <li class="nav__list-item">
-                        <a href="../test_html/find.html" class="nav__list-link">
-                            <i class="fas fa-search"></i>
-                        </a>
-                    </li>
-                    <li class="nav__list-item">
-                        <a href="../test_html/more.html" class="nav__list-link">
-                            <i class="fas fa-ellipsis-v"></i>
-                        </a>
+                    <li class="more__btn">
+                        <span class="more__btn-icon">
+                            <i class="fab fa-kickstarter-k fa-2x"></i>
+                        </span><span class="more__btn-title">
+                            Account
+                        </span>
                     </li>
                 </ul>
-            </nav>
-        </div>
+            </header>
+            <section class="mpre__suggestions">
+                <h5 class="more__title">Suggestions</h5>
+                <ul class="more__suggestion-list">
+                    <li class="more__suggestion suggestion">
+                        <span class="suggestion__icon">
+                            <i class="fas fa-quote-right fa-2x"></i>
+                        </span>
+                        <span class="suggestion__title">
+                            Kakao Story
+                        </span>
+                    </li>
+                    <li class="more__suggestion suggestion">
+                        <span class="suggestion__icon">
+                            <i class="fas fa-beer fa-2x"></i>
+                        </span>
+                        <span class="suggestion__title">
+                            Kakao Friends
+                        </span>
+                    </li>
+                    <li class="more__suggestion suggestion">
+                        <span class="suggestion__icon">
+                            <i class="fas fa-gamepad fa-2x"></i>
+                        </span>
+                        <span class="suggestion__title">
+                            Friends Gam
+                        </span>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__list-item">
+                    <a href="../test_html/friends.html" class="nav__list-link">
+                        <i class="far fa-user"></i>
+                    </a>
+                </li>
+                <li class="nav__list-item">
+                    <a href="../test_html/index.html" class="nav__list-link">
+                        <i class="far fa-comment"></i>
+                    </a>
+                </li>
+                <li class="nav__list-item">
+                    <a href="../test_html/find.html" class="nav__list-link">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+                <li class="nav__list-item">
+                    <a href="../test_html/more.html" class="nav__list-link">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </body>
 </html>
